@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block head %}
+
+<meta content="{{ title }}" property="og:title" />
+<meta content="{{ description }}" property="og:description" />
+<meta content="https://scratch.mit.edu/projects/{{ id }}" property="og:url" />
+<meta content="{{ img }}" property="og:image" />
+<meta content="#885CD4" data-react-helmet="true" name="theme-color" />
+
+{% endblock %}
